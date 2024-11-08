@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#items {
+  justify-content: right;
+}
+
+h1 {
+  color: magenta;
+  text-shadow: 2px 2px 3px gray;
+}
+
+h3 {
+  color: yellow;
+  text-shadow: 2px 2px 5px black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+nav ul li a.active {
+  color: white;
+  background-color: #04aa6d;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-red {
+  color: red;
+}
+
+.popover-before {
+  color: blue;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.notice-title {
+  font-weight: 800;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.notice {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sale {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+form div {
+  cursor: pointer;
+}
+
+h2.success {
+  color: green;
+  text-shadow: 2px 2px 2px black;
+}
