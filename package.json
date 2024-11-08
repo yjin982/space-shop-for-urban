@@ -1,10 +1,9 @@
 {
-  "name": "javascript",
+  "name": "space-shop",
+  "homepage": "https://yjin982.github.io/space-shop-for-urban",
   "version": "1.0.0",
-  "description": "The JavaScript template",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "deploy": "gh-pages -d public"
   },
   "devDependencies": {
     "parcel": "^2.0.0",
